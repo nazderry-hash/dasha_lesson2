@@ -30,4 +30,4 @@ def generate_phone_3():
     return phone[1:]
 
 def generate_long_phone():
-    return "9" * 30
+    return "9" * 40

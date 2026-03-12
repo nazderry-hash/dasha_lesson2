@@ -94,8 +94,8 @@ def test_with_all(feedback_name):
 
     response = requests.post(url, data=data, files=files)
 
-    print(f"Код ответа: {response.status_code}")
-    print(f"Тело ответа: {response.text}")
+    print(f"Код: {response.status_code}")
+    print(f"Текст: {response.text}")
 
     assert response.status_code == 201
     assert response.text is not None
